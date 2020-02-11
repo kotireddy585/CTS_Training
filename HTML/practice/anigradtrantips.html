@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#sq{
+			width: 100px;
+			height: 100px;
+			position: relative;
+			background-color: red;
+			animation: myanime 5s;
+			color: white;
+			text-align: center;
+
+		}
+		@keyframes myanime{
+			0%{background-color: red; top: 0px; left: 0px;}
+			25%{background-color: black;top:0px; left:100px;}
+			50%{background-color: blue;top:100px; left:100px;}
+			75%{background-color: yellow;top:100px; left:0px; }
+			100%{background-color: pink;top:0px; left:0px;}
+		}
+		#tran{
+			width: 100px;
+			height: 100px;
+			position: relative;
+			background:orange;
+			transition: width 1s;
+		}
+		#tran:hover{
+			width: 300px;
+		}
+		#tf{
+            width: 100px;
+            height: 100px;
+            position: relative;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="sq">
+       CATCH ME
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="tran">
+		
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="tf">
+
+	</div>
+
+</body>
+</html>

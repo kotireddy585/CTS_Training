@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style type="text/css">
+body{
+		background-color: orange;
+		font-family: verdana,geneva,sans-serif;
+	}
+div{
+
+	float: left;
+    margin: 100px;
+}
+input,textarea,select{
+	border-radius: 4px;
+	border-color: lightgrey;
+	border-style: solid;
+}
+
+</style>
+</head>
+<body>
+<div>
+	<table>
+	<form id="availl">
+		<tr>
+		    <td>Customer Name</td>
+		   <td><input type="text" name="Cn"></td>
+	    </tr>
+	    <tr>
+		<td>Address</td>
+		<td><textarea form="availl" rows="5" cols="15s"></textarea></td>
+		</tr>
+		<tr>
+		<td>Gender</td>
+		<td><input type="radio" name="gender">Male
+		    <input type="radio" name="gender">Female</td>
+		 </tr>
+		<tr>
+		<td>Email ID</td>
+		<td><input type="email" name="em"></td>
+	
+		 </tr>
+		<tr>
+		<td>MobileNumber</td>
+		<td><input type="number" name="num"></td>
+		 </tr>
+		<tr>
+		<td>Date-Of-Birth</td>
+		<td><input type="date" name="dob"></td>
+		 </tr>
+		<tr>
+		<td>Loan Type</td>
+		<td><select>
+			<option value=""></option>
+			<option value="personal">personal</option>
+			<option>car</option>
+			<option>home</option>
+			<option>vehicle</option>
+		
+		</select></td>
+		 </tr>
+		<tr>
+		<td>Loan Amount</td>
+		<td><input type="number" name="la"></td>
+	
+		</tr>
+		<tr>
+		<td>Tenure<small>(years)</small></td>
+		<td><select>
+			<option></option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		
+		</select></td>
+        </tr>
+        <tr>
+        	<td><input type="button" name="Al" value="Avail loan"></td>
+        	<td><input type="button" name="" value="Reset"></td>
+        </tr>
+
+	</form>
+</table>
+
+</body>
+</html>
